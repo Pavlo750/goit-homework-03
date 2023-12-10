@@ -29,12 +29,11 @@ a {
   color: #e7e9fc;
   background: var(--WHITE, #fff);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  width: 1158px;
-  padding: 24px 0;
 }
 .header .container {
   display: flex;
   align-items: center;
+  width: 1158px;
 }
 h1,
 h2,
@@ -56,8 +55,7 @@ p {
   align-items: center;
   margin-right: 100px;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 .adres-item {
   display: flex;
