@@ -29,6 +29,8 @@ a {
   color: #e7e9fc;
   background: var(--WHITE, #fff);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  width: 1158px;
+  padding: 24px 0;
 }
 .header .container {
   display: flex;
