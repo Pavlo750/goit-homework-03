@@ -29,6 +29,8 @@ a {
   color: #e7e9fc;
   background: var(--WHITE, #fff);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header .container {
   display: flex;
@@ -56,7 +58,8 @@ p {
   align-items: center;
   margin-right: 100px;
   gap: 40px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .adres-item {
   display: flex;
@@ -187,9 +190,15 @@ p {
 }
 
 /* section 2 */
+.section-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .nov {
   display: none;
 }
+
 .section-item {
   display: flex;
   gap: 24px;
@@ -198,7 +207,9 @@ p {
   margin-bottom: 120px;
   margin-left: auto;
   max-width: auto;
-  justify-content: center;
+
+  width: calc((100% - 72px) / 4);
+  justify-content: flex-end;
 }
 .content {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -221,6 +232,10 @@ p {
 }
 
 /* section 3 */
+.posada {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .section-foto {
   display: flex;
   gap: 24px;
@@ -228,7 +243,8 @@ p {
 
 .fonfoto {
   background: var(--CLOUD, #f4f4fd);
-  padding-top: 232px;
+
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .team {
@@ -244,6 +260,7 @@ p {
 }
 .user {
   background: var(--WHITE, #fff);
+  border-radius: 0px 0px 4px 4px;
 }
 .user-img {
   background: url(<path-to-image>),
@@ -277,6 +294,15 @@ p {
 /* section 4 */
 .fonfo {
 }
+.nazva {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.fonfoto {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .project-card {
   background: #fff;
@@ -297,6 +323,7 @@ p {
   align-content: flex-start;
   gap: 24px;
   width: 1136px;
+  row-gap: 48px;
 }
 .portfolio-img {
   color: #e7e9fc;
@@ -323,8 +350,8 @@ p {
 /* Futer */
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
-  padding-top: 156px;
-  padding-bottom: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .lod {
   color: #f4f4fd;
@@ -345,6 +372,7 @@ p {
   text-transform: uppercase;
   padding-top: 100px;
   padding-bottom: 16px;
+  display: inline-block;
 }
 .para {
   color: var(--CLOUD, #f4f4fd);
