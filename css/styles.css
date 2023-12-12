@@ -295,6 +295,10 @@ p {
   letter-spacing: 0.32px;
   padding-bottom: 24px;
 }
+.fonfoto {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 /* section 4 */
 .fonfototo {
@@ -306,10 +310,6 @@ p {
   border: 1px solid #e7e9fc;
   border-top: none;
   width: calc((100% - 48px) / 3);
-}
-.fonfoto {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .project-card {
@@ -334,6 +334,7 @@ p {
   gap: 24px;
   width: 1136px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
