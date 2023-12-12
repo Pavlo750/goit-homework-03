@@ -5,11 +5,9 @@ body {
   color: #434455;
 }
 .container {
-  width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 img {
   display: block;
@@ -201,7 +199,16 @@ p {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-item {
@@ -334,7 +341,6 @@ p {
   gap: 24px;
   width: 1136px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
