@@ -207,7 +207,6 @@ p {
 .section-item {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
   align-items: flex-start;
   margin-top: 120px;
   margin-bottom: 120px;
