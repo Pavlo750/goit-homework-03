@@ -158,7 +158,7 @@ p {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 56px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -166,6 +166,8 @@ p {
   display: block;
   min-width: 169px;
   padding: 16px 32px;
+  height: 56px;
+  border: none;
 }
 .cnopca:hover {
   background: var(--OCEAN, #404bbf);
@@ -179,7 +181,7 @@ p {
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 30px;
   letter-spacing: 1.12px;
   display: block;
 }
